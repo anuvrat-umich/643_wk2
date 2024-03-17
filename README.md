@@ -1,6 +1,6 @@
 # SIADS 643 wk2 Code Crafting - Anuvrat Chaturvedi - March 17th, 2024
 
-## Project Overview
+## Project Description
 
 This project aims to create a correlation matrix and histograms for the given data. The code provided in this repository allows you to perform the following tasks:
 
@@ -13,7 +13,7 @@ This project aims to create a correlation matrix and histograms for the given da
 To get started with this project, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Install the required dependencies (if any).
+2. Install the required dependencies.
 3. Run the code to generate the correlation matrix and histograms.
 
 ## Usage
@@ -32,7 +32,13 @@ This project has the following dependencies:
 - Pandas library
 - Matplotlib library
 
-Make sure you have these dependencies installed before running the code.
+Make sure you have these dependencies installed before running the code. Install using 'pip install -r 643_wk2/src/requirements.txt'
+
+## Sample code to execute
+
+Run the following code in the in your preferred Python programming environment with installed dependencies. It should be run as a single line argument.
+
+python main.py --sdoh_file data/SDOH_Measures_for_ZCTA\_\_ACS_2017-2021_20240121.csv --correlation_matrix_path data/correlation_matrix.csv --figure_path data/sdoh_histogram.png --keep_columns "LocationName" "Measure" "Data_Value" "TotalPopulation" --rename_columns_old "LocationName" --rename_columns_new "ZIP" --index_col "ZIP" "TotalPopulation" --columns_col "Measure" --values_col "Data_Value" --plot_columns "Crowding among housing units" "Persons of racial or ethnic minority status" "Single-parent households"
 
 ## Contributing
 
