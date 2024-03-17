@@ -31,6 +31,7 @@ This project has the following dependencies:
 - Python 3.7 or higher
 - Pandas library
 - Matplotlib library
+- Pytest library
 
 Make sure you have these dependencies installed before running the code. Install using 'pip install -r 643_wk2/src/requirements.txt'
 
@@ -39,6 +40,10 @@ Make sure you have these dependencies installed before running the code. Install
 Run the following code in the in your preferred Python programming environment with installed dependencies. It should be run as a single line argument.
 
 python main.py --sdoh_file data/SDOH_Measures_for_ZCTA\_\_ACS_2017-2021_20240121.csv --correlation_matrix_path data/correlation_matrix.csv --figure_path data/sdoh_histogram.png --keep_columns "LocationName" "Measure" "Data_Value" "TotalPopulation" --rename_columns_old "LocationName" --rename_columns_new "ZIP" --index_col "ZIP" "TotalPopulation" --columns_col "Measure" --values_col "Data_Value" --plot_columns "Crowding among housing units" "Persons of racial or ethnic minority status" "Single-parent households"
+
+## Unit Testing
+
+To run the unit tests for this project, execute the `test_all.py` script. This script contains a comprehensive set of tests to ensure the functionality of the code.
 
 ## Contributing
 
