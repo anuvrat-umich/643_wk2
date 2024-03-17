@@ -1,2 +1,3 @@
-# 643_wk2
-SIADS 643 week2 repo for Anuvrat Chaturvedi
+# SIADS 643 wk2 Code Crafting - Anuvrat Chaturvedi - March 17th, 2024
+
+I have created this code to create correlation matrix and histograms for the given data.
