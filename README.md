@@ -51,12 +51,12 @@ The project folder structure is defined below:
 
 - `data/`: This folder contains the sample data file used in the project. It has also been used to output sample correlation matrix and histogram.
 - `src/`: This folder contains the source code files including the unit test file.
-  | - `main.py`: This file is the main entry point of the code.
-  | - `loader.py`: This file contains the code to load the data file.
-  | - `cleaner.py`: This file contains the code for cleaning the data.
-  | - `analysis.py`: This file contains the code for performing data analysis.
-  | - `visualization.py`: This file contains the code for generating visualizations.
-  | - `test_all.py`: This file contains the unit tests for the project.
+  - `main.py`: This file is the main entry point of the code.
+  - `loader.py`: This file contains the code to load the data file.
+  - `cleaner.py`: This file contains the code for cleaning the data.
+  - `analysis.py`: This file contains the code for performing data analysis.
+  - `visualization.py`: This file contains the code for generating visualizations.
+  - `test_all.py`: This file contains the unit tests for the project.
 - `README.md`: This file provides an overview of the project and instructions for usage.
 - `LICENSE`: This file contains the project's license information.
 - `requirements.txt`: This file lists the dependencies required for the project.
