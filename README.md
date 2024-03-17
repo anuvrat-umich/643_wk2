@@ -33,7 +33,7 @@ This project has the following dependencies:
 - Matplotlib library
 - Pytest library
 
-Make sure you have these dependencies installed before running the code. Install using 'pip install -r 643_wk2/src/requirements.txt'
+Make sure you have these dependencies installed before running the code. Install using `pip install -r 643_wk2/src/requirements.txt`
 
 ## Sample code to execute
 
